@@ -5,3 +5,9 @@ TO DO
 - Faucet Integration
 - Batch file generator
 - Coin price in nav bar next to pool hash/workers
+- Pool hashrate over time graph
+
+
+MAYBE
+- Network difficulty graph
+- Network Hashrate graph
