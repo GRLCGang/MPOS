@@ -9,6 +9,7 @@
           <table class="table table-striped table-bordered table-hover">
             <thead>
               <tr>
+				<th class="text-center">#</th>
                 <th class="text-center">Block</th>
                 <th class="text-center">Validity</th>
                 <th class="text-left">Finder</th>
@@ -30,6 +31,7 @@
               <tr>
               {assign var="totalshares" value=$totalshares+$BLOCKSFOUND[block].shares}
               {assign var="count" value=$count+1}
+			  <td class="text-center">{$count}</td>
               {if $GLOBAL.config.payout_system == 'pplns'}{assign var="pplnsshares" value=$pplnsshares+$BLOCKSFOUND[block].pplns_shares}{/if}
               {if ! $GLOBAL.website.blockexplorer.disabled}
                 <td class="text-center"><a href="{$smarty.server.SCRIPT_NAME}?page=statistics&action=round&height={$BLOCKSFOUND[block].height}">{$BLOCKSFOUND[block].height}</a></td>
