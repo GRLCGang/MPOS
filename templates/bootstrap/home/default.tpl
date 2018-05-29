@@ -13,7 +13,7 @@
 					  <tbody>
 					
 						<tr><td style="padding: 10px;">✔ 99.9% Up-time</td></tr>					
-						<tr><td style="padding: 10px;">✔ Low Fees (0.5%)</td></tr>
+						<tr><td style="padding: 10px;">✔ No Fee (0%)</td></tr>
 						<tr><td style="padding: 10px;">✔ Per-Worker Stats, Monitoring & Notifications</td></tr>
 						<tr><td style="padding: 10px;">✔ Custom Payout Thresholds</td></tr>
 						<tr><td style="padding: 10px;">✔ Bonus GRLC Randomly Sent To All Miners</td></tr>
