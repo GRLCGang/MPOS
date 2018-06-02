@@ -468,6 +468,7 @@ class Statistics extends Base {
       SELECT
         a.id AS id,
         a.username AS account,
+        a.donate_percent AS donate_percent,
         ca.coin_address AS coin_address,
         COUNT(DISTINCT t1.username) AS workers,
         IFNULL(SUM(t1.difficulty), 0) AS shares,
